@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(/images/food4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .logo{
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 20px;
+    line-height: 80px;
+    transition: all 0.5s;
+    color: orange;
+}
+.container .logo:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    height: 80px;
+    background-color: #33333333;
+}
+.container .links li{
+    display: inline-block;
+    
+}
+.container .links li a{
+    color: white;
+    padding: 0 20px;
+    line-height: 80px;
+    display: block;
+    transition: 0.4s;
+}
+.container .links li a:hover{
+    color: orange;
+    scale: 1.1;
+}
+.container .btn{
+    margin-right: 10px;
+    margin-top: 20px;;
+    background-color: orange;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    height: fit-content;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight:500;
+    transition: 0.4s;
+}
+.container .btn:hover{
+    background-color: rgba(255, 166, 0, 0.873);
+    color: rgb(243, 230, 230);
+}
+.theme{
+    color: white;
+    text-align: center;
+    transform: translate(0,25vh);
+    
+}
+.theme h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.theme p{
+    margin-bottom: 50px;  
+    color: #ffffffd6;
+}
+
+.theme .button{
+    color:rgb(0, 0, 0) ;
+    background-color:rgb(255, 221, 0);
+    padding: 15px 34px;
+    border: none;
+    transition: background-color 1s;
+    font-size: 18px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.theme .button:hover{
+    transform: scale(1.05) ;
+}
